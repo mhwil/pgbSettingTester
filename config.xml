@@ -15,11 +15,22 @@
 
     <feature name="http://api.phonegap.com/1.0/device" />
 
-    <preference name="phonegap-version" value="2.1.0" />
-    <preference name="orientation"      value="landscape" />
-    <preference name="target-device"    value="handset" />
+	<preference name="phonegap-version" value="2.1.0" />
+
+
+	<preference name="target-device"    value="handset" />
+	<preference name="prerendered-icon" value="true" />
+	<preference name="exit-on-suspend" value="true" />
+	<preference name="ios-statusbarstyle" value="black-translucent" />
     <preference name="fullscreen"       value="true" />
-	<preference name="detect-data-types" value="false" />
+    
+    <preference name="webviewbounce" value="false" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="stay-in-webview" value="true" />
+    
+    <preference name="orientation"      value="landscape" />
+    <preference name="detect-data-types" value="false" />
 
     <icon src="icon.png" />
     <icon src="res/icon/android/icon_36_ldpi.png"   gap:platform="android"    gap:density="ldpi" />
