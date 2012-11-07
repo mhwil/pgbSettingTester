@@ -18,7 +18,7 @@
 	<preference name="phonegap-version" value="2.1.0" />
 
 
-	<preference name="target-device"    value="handset" />
+	<preference name="target-device"    value="universal" />
 	<preference name="prerendered-icon" value="true" />
 	<preference name="exit-on-suspend" value="true" />
 	<preference name="ios-statusbarstyle" value="black-translucent" />
@@ -30,7 +30,7 @@
     <preference name="stay-in-webview" value="true" />
     
     <preference name="orientation"      value="default" />
-<!--    <preference name="detect-data-types" value="false" /> -->
+    <preference name="detect-data-types" value="true" />
 
     <icon src="icon.png" />
     <icon src="res/icon/android/icon_36_ldpi.png"   gap:platform="android"    gap:density="ldpi" />
