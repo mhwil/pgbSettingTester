@@ -32,7 +32,10 @@
     <preference name="orientation"      value="default" />
     <preference name="detect-data-types" value="true" />
 
-	<access origin="http://*.google.com" />
+	<access origin="http://*.google.com" browserOnly="true" />
+	<access origin="http://*.opentext.com" />
+	<access origin="http://*.bbc.co.uk"  />
+	<access origin="http://theregister.com" subdomains="true" />
 	<access origin="http://*.opentext.com" />
 	<access origin="http://*.bbc.co.uk"  />
 
