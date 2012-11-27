@@ -30,7 +30,7 @@
     <preference name="stay-in-webview" value="false" />
     
     <preference name="orientation"      value="default" />
-    <preference name="detect-data-types" value="false" />
+    <preference name="detect-data-types" value="true" />
 
 	<access origin="http://*.google.com" />
 	<access origin="http://*.opentext.com" />
