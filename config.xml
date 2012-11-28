@@ -36,7 +36,7 @@
 	<access origin="http://*.theregister.co.uk" />
 	<access origin="http://engadget.com" subdomains="true" />
 	<access origin="http://www.thetimes.co.uk" browserOnly="true" />
-	<access origin="http://thetimes.co.uk" subdomains="true" browserOnly="true" />
+	<access origin="http://smh.com.ah" subdomains="true" browserOnly="true" />
 
     <icon src="icon.png" />
     <icon src="res/icon/android/icon_36_ldpi.png"   gap:platform="android"    gap:density="ldpi" />
